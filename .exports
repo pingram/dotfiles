@@ -1,5 +1,5 @@
-# Make vim the default editor.
-export EDITOR='vim';
+# Make sublime the default editor.
+export EDITOR='subl';
 
 # Enable persistent REPL history for `node`.
 export NODE_REPL_HISTORY=~/.node_history;
@@ -26,3 +26,6 @@ export LESS_TERMCAP_md="${yellow}";
 
 # Don’t clear the screen after quitting a manual page.
 export MANPAGER='less -X';
+
+# Set default port to 3000.
+export PORT='3000';
