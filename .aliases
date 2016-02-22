@@ -157,3 +157,7 @@ alias gd='git difftool'
 alias go='git checkout '
 alias gk='gitk --all&'
 alias gx='gitx --all'
+
+# MySQL
+alias mysql-start='/usr/local/mysql/support-files/mysql.server start'
+alias mysql-stop='/usr/local/mysql/support-files/mysql.server stop'

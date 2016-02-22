@@ -1,1 +1,2 @@
 export PATH="/usr/local/git/bin:/usr/local/bin:/usr/bin:/usr/local/sbin:$PATH"
+export PATH=${PATH}:/usr/local/mysql/bin/
