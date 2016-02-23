@@ -165,3 +165,6 @@ alias mysql-stop='/usr/local/mysql/support-files/mysql.server stop'
 # Navigation shortcuts
 alias cdt='cd ~/Documents/client_work/IPG\ Lab\ -\ Jonathan/twitter/'
 alias cdc='cd ~/Documents/client_work/Samwise\ Technology/project-cv'
+
+# Webpack
+alias wpw='webpack --watch --progress --colors'
