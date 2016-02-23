@@ -1,5 +1,8 @@
 # Make sublime the default editor.
-export EDITOR='subl';
+# export EDITOR='subl';
+
+# Make atom the default editor.
+export EDITOR='atom';
 
 # Enable persistent REPL history for `node`.
 export NODE_REPL_HISTORY=~/.node_history;

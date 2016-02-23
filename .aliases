@@ -161,3 +161,7 @@ alias gx='gitx --all'
 # MySQL
 alias mysql-start='/usr/local/mysql/support-files/mysql.server start'
 alias mysql-stop='/usr/local/mysql/support-files/mysql.server stop'
+
+# Navigation shortcuts
+alias cdt='cd ~/Documents/client_work/IPG\ Lab\ -\ Jonathan/twitter/'
+alias cdc='cd ~/Documents/client_work/Samwise\ Technology/project-cv'
