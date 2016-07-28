@@ -163,8 +163,10 @@ alias mysql-start='/usr/local/mysql/support-files/mysql.server start'
 alias mysql-stop='/usr/local/mysql/support-files/mysql.server stop'
 
 # Navigation shortcuts
-alias cdt='cd ~/Documents/client_work/ipg_lab/twitter'
-alias cdc='cd ~/Documents/client_work/samwise/project-cv'
+alias cdo='cd ~/Documents/code/onelife'
 
 # Webpack
 alias wpw='webpack --watch --progress --colors'
+
+# Foreman
+alias fore='bundle exec foreman start -f Procfile.dev'
