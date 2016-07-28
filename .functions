@@ -244,3 +244,30 @@ function o() {
 function tre() {
 	tree -aC -I '.git|node_modules|bower_components' --dirsfirst "$@" | less -FRNX;
 }
+
+# ----------------------------- ONEMEDICAL -------------------------------------
+
+# Easier way to get heroku logs for an instance (only works if
+# instance name starts with `onelife-`
+# usage: to get logs for onelife-roger, $ hlogs roger
+herokuLogFunction() {
+  heroku logs --app onelife-$1 --tail
+}
+alias hlogs=herokuLogFunction
+
+# Easier way to deploy to a heroku app from the current branch.
+# There are no safeties on this beyond what's in the rake task. :)
+# usage: to deploy current branch to onlife-roger: $ deployto roger
+deployFunction() {
+  echo "Deploying to: onelife-$1"
+  rake assets:clobber --quiet
+  rake deploy[onelife-$1]
+}
+alias deployto=deployFunction
+
+# Shorter command/easier way to get rails console for qual servers
+# usage: to get a rails console for onelife-roger: $ hcon roger
+hconFunction() {
+  heroku run rails console --app onelife-$1
+}
+alias hcon=hconFunction
