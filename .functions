@@ -273,6 +273,11 @@ hconFunction() {
 alias hcon=hconFunction
 
 ssho() {
+  if [ -z "$1" ]; then
+    echo "Server name is a required argument";
+    return 1
+  fi
+
   if [ $1 = 'staging' ] || [ $1 == 'production' ]; then
     local bastionServer="bastion-$1.onemedical.io"
   else
