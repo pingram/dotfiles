@@ -112,7 +112,7 @@ brew install chruby ruby-install
 
 # brew cask install 1password
 # brew cask install amazon-drive
-# brew cask install atom
+brew cask install atom
 # brew cask install adobe-creative-cloud
 # brew cask install adobe-photoshop-lightroom
 # brew cask install adobe-photoshop-cc
@@ -130,10 +130,10 @@ brew cask install firefox
 # brew cask install postico
 # brew cask install quickbooks
 brew cask install sequel-pro
-# brew cask install skitch
+brew cask install skitch
 # brew cask install skype
-# brew cask install slack
-# brew cask install spectacle
+brew cask install slack
+brew cask install spectacle
 brew cask install spotify
 brew cask install sublime-text
 # brew cask install utorrent
