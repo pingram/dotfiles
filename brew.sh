@@ -84,8 +84,8 @@ brew install woff2
 # brew install ack
 # brew install dark-mode
 #brew install exiv2
-brew install git
-brew install git-lfs
+# brew install git
+# brew install git-lfs
 brew install imagemagick --with-webp
 # brew install lua
 # brew install lynx
@@ -110,31 +110,31 @@ brew tap caskroom/cask
 
 brew install chruby ruby-install
 
-brew cask install 1password
+# brew cask install 1password
 # brew cask install amazon-drive
-brew cask install atom
+# brew cask install atom
 # brew cask install adobe-creative-cloud
 # brew cask install adobe-photoshop-lightroom
 # brew cask install adobe-photoshop-cc
 # brew cask install codekit
-brew cask install crashplan
+# brew cask install crashplan
 brew cask install cyberduck
 brew cask install diffmerge
 brew cask install evernote
 brew cask install firefox
-brew cask install google-chrome
+# brew cask install google-chrome
 # brew cask install google-photos-backup
 # brew cask install karabiner
 # brew cask install p4merge
-brew cask install postgres
-brew cask install postico
+# brew cask install postgres
+# brew cask install postico
 # brew cask install quickbooks
 brew cask install sequel-pro
-brew cask install skitch
+# brew cask install skitch
 # brew cask install skype
 # brew cask install slack
-brew cask install spectacle
+# brew cask install spectacle
 brew cask install spotify
 brew cask install sublime-text
 # brew cask install utorrent
-brew cask install vlc
+# brew cask install vlc

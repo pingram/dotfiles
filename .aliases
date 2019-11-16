@@ -160,10 +160,11 @@ alias mysql-start='/usr/local/mysql/support-files/mysql.server start'
 alias mysql-stop='/usr/local/mysql/support-files/mysql.server stop'
 
 # Navigation shortcuts
-alias cdo='cd ~/Documents/code/onelife'
+alias cdv='cd ~/Documents/code/voyager-api_trunk'
 
-# Webpack
-alias wpw='webpack --watch --progress --colors'
-
-# Foreman
-alias fore='bundle exec foreman start -f Procfile.dev'
+# Ligradle
+alias lirun='ligradle :voyager-api-organization:runPlayBinary -Pdebug=true -Ddebug.port=9999 -Dhttps.port=9001'
+alias liruna='ligradle :voyager-api-frontend:runPlayBinary -Pdebug=true -Ddebug.port=9999 -Dhttps.port=9001'
+alias libuild='ligradle publishRestliIdl publishRestliSnapshot -Prest.model.compatibility=ignore'
+alias liqprod='ligradle  :voyager-api-organization:runPlayBinary -Pdebug=true -Pfabric=qdtprod-lva1 -t'
+alias liqproda='ligradle  :voyager-api-frontend:runPlayBinary -Pdebug=true -Pfabric=qdtprod-lva1 -t'
